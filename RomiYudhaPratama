@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+                <a href="#" class="navbar-logo">Portofolio<span>Saya</span>.</a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portofolio</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+            <i class="ri-menu-line"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Halo, Nama Saya <span>Romi Yudha Pratama</span><br>Dari Tegal</h1>
+            <p>Saya Adalah Seorang Mahasiswa</p>
+        </div>
+    </div>
+</div> 
+<!-- ---------------about------------- -->
+   <div id="about">
+       <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="WhatsApp Image 2023-10-23 at 13.12.01_476d3812.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero vitae voluptatem minus quod at cum, quos nemo exercitationem? Consectetur minus alias dolorum repellat fugit eveniet voluptas id consequatur dolore asperiores.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skill')">Skill</p>
+                        <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skill">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web interface</li>
+                            <li><span>Web Development</span><br>Front End Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>UI/UX Design Training in Codingstudio</li>
+                            <li><span>2022 - Current</span><br>Front End Web Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - 2022</span><br>UI/UX Design Training at codingstudio</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+       </div>
+   </div>
+   <!-- --------------services------------- -->
+   <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores minus odio porro sit nesciunt nihil, similique nisi quam rem laudantium atque veritatis ullam, optio ad necessitatibus accusantium sint aliquam ex.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores minus odio porro sit nesciunt nihil, similique nisi quam rem laudantium atque veritatis ullam, optio ad necessitatibus accusantium sint aliquam ex.</p>
+                    <a href="#">Learn more</a>
+                </div>
+             </div>
+        </div>
+   </div>
+     <!-- --------------tugas--------------- -->
+     <div id="tugas">
+        <div class="container">
+            <h1 class="sub-title">Resume Seminar</h1><br>
+            <h2>Point-Point yang Sudah Saya Rangkum</h2>
+            <div class="tugas-list">
+                <div>
+                    <i class="ri-draft-line"></i>
+                    <p> <h1> Unlocking The Future: Embracing The Digital Revolution
+                        For A Better Tomorrow</h1>
+                        <br>Red Hat adalah Perusahaan opensource yang bergerak di bidang software yaitu sistem operasi linux yang mengacu ke dalsm bidang edukasi yang sekarang ini bernama RHEL (Red Had Enterprise Linux) Red Had mempunyai salah satu program yaitu program CSR (dhsvsjsi) .CSR adalah kegiatan yang memfokuskan untuk para community dibidang akademisi untuk menjembatani antara industri, akademik, dan institusi.</p>
+                        <br>Red Hat Academy adalah sebuah platform dimana teman-teman bisa mempelajari materi didalam Red Had secara gratis atau juga mirip dengan software E-learning seperti Sys admin, automation and anible, openshift, pemrograman java, pyhton, Dll. Red Had Academy didalamnya terdapat modul-modul yang bisa dipelajari secara gratis,di platform ini juga tidak sekedar modul yang dipelajari di platform ini bisa secara langsung praktik atau labs yang sudah di siapkan dari Red Had Academy tanpa harus menginstal software lain dan ada juga video classroom.Red Had Academy menyediakan pelatihan atau sertifikasi secara global yang dimana sekarang persaingan di masa depan itu mengacu kepada sertifikasi.</p>
+                        <br>Perkembangan IT dulu dan IT sekarang itu banyak yang berubah salah satunya itu yang sekarang di Dunia ini serba menggunakan Sistem Digital seperti adanya Mobile Banking yang berevolusi yang sekarang namanya Open Banking.perbedaan Red Had dengan linux ialah Red Red Hat sebuah perusahaan yang menghasilkan distribusi Linux (RHEL) dan distribusi komunitas (Fedora), sementara Linux adalah kernel sistem operasi sumber terbuka yang digunakan dalam berbagai distribusi Linux.</p>
+                        <br>Perkembangan digital sekarang kita butuh adanya 3S yaitu Speed,Scal,Stability,Karena ketiga unsur tersebut aplikasi bisa semakin cepat workspeednya dan stabilitynya.Microservice adalah kondisi dimana kita memecahkan satu aplikasi.Realita sekarang di IT infrakstrukturnya adalah Hybrid Cloud.Hybrid Cloud adalah model komputasi awan yang menggabungkan dua atau lebih tipe lingkungan awan yang berbeda, seperti cloud publik dan cloud pribadi, menjadi satu lingkungan yang terintegrasi.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+   <!-- ---------------portofolio----------- -->
+   <div id="portofolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Img/work-1.png">
+                    <div class="layer">
+                        <h3>Sosial Media App</h3>
+                        <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                        <a href="#"><i class="ri-external-link-line"></i></a>
+                    </div>
+                    https://docs.google.com/document/d/1UplbpkPRNlCfPq4Y1zOl1fi0w9EweUMG/edit?usp=sharing&ouid=113522483757058223754&rtpof=true&sd=true
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Img/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                        <a href="#"><i class="ri-external-link-line"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+   </div>
+   <!-- ------------------kontak----------------- -->
+   <div id="kontak">
+    <div class="container">
+        <div class="row">
+            <div class="kontak-left">
+                <h1 class="sub-title">Kontak Saya</h1>
+                <p><i class="ri-send-plane-fill"></i>romiyudhap@gmail.com</p>
+                <p><i class="ri-phone-fill"></i>081882895462</p>
+                <div class="sosial-icons">
+                    <a href="https://www.instagram.com/rydp___/?next=%2F"><i class="ri-instagram-line"></i></a>
+                </div>
+                <a href="Img/Cv Saya.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="kontak-right">
+                <form>
+                    <input type="text" name="Nama" placeholder="Nama" required>
+                    <input type="text" name="Email" placeholder="Email" required>
+                    <textarea name="Pesan" rows="6" placeholder="Pesan"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <h1>Romi Yudha</h1>
+        <p>Copyright © DAR26. Production All rights reserved </p>
+    </div>
+   </div>
+
+   <script>
+
+       var tablinks =document.getElementsByClassName("tab-links");
+       var tabcontents = document.getElementsByClassName("tab-contents");
+
+       function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+       }
+
+   </script>
+</body>
+</html>
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #080808;
+    color: #fff;
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Img/Romi1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    padding: 10px 10%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #00FFFF	;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+.header-text{
+    margin-top: 20%;
+    font-size: 30px;
+}
+
+.header-text h1{
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.header-text h1 span{
+    color: #FF00FF		;
+}
+/* --------------tugas---------------- */
+#tugas {
+    padding: 30px 0;
+  }
+  
+  .tugas-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+  }
+  
+  .tugas-list div {
+    background: #262626;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+  }
+  
+  .tugas-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+  
+  .tugas-list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  
+  .tugas-list div a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+  }
+  
+  .tugas-list div:hover {
+    background: #0000cd;
+    transition: translateY(-10px);
+  }
+  
+/*-----------------about---------------> */
+#about{
+    padding: 80px 0;
+    color: #ababab;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1{
+    flex-basis: 35%;
+}
+
+.about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.about-col-2 {
+    flex-basis: 60%;
+}
+
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.tab-title{
+    display: flex;
+    margin: 20px 0 40px;
+}
+
+.tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #FF00FF	;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.tab-links.active-link::after{
+    width: 50%;
+}
+
+.tab-contents ul li span{
+    color:	#FF00FF	;
+    font-size: 14px;
+}
+
+.tab-contents{
+    display: none;
+}
+
+.tab-contents.active-tab{
+    display: block;
+}
+
+/* ------------------services--------------- */
+#services{
+    padding: 30px 0;
+}
+
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.services-list div{
+    background: #262626;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+}
+
+.services-list div i{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.services-list div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.services-list div a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.services-list div:hover{
+    background: #FF00FF	;
+    transition: translateY(-10px);
+}
+
+/* --------------portofolio------------ */
+#portofolio{
+    padding: 50px 0;
+}
+
+.work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.work img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.layer{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.6), #FF00FF	);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+}
+
+.layer h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.layer a{
+    margin-top: 20px;
+    color: #FF00FF	;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+} 
+
+.work:hover img{
+    transform: scale(1.1);
+}
+
+.work:hover .layer{
+    height: 100%;
+}
+
+.btn{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #FF00FF	;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.5s;
+}
+
+.btn:hover{
+    background: #FF00FF	;
+}
+
+/* ---------------kontak------------ */
+.kontak-left{
+    flex-basis: 35%;
+}
+
+.kontak-right{
+    flex-basis: 60%;
+}
+.kontak-left p{
+    margin-top: 30px;
+}
+
+.kontak-left p i{
+    color: #FF00FF	;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.sosial-icons{
+    margin-top: 30px;
+}
+.sosial-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.sosial-icons a:hover{
+    color: #FF00FF	;
+    transform: translateY(-5px);
+}
+
+.btn.btn2{
+    display: inline-block;
+    background: #FF00FF	;
+}
+
+.kontak-right form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+/* -----------------css for small screens------------- */
+nav .ri-menu-line{
+    display: none;
+}
+nav .ri-close-line{
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+    #header{
+        background-image: url(Img/Romi1.jpeg);
+    }
+    .header-text{
+        margin-top: 100%;
+        font-size: 16px;
+    }
+    .header-text h1 {
+        font-size: 30px;
+    }
+
+    nav .ri-close-line{
+        display: block;
+        font-size: 25px;
+    }
+    nav .ri-menu-line{
+        display: block;
+        font-size: 25px;
+    }
+    nav ul{
+        background: #FF00FF	;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.7s;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul .ri-close-line{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    .sub-title{
+        font-size: 40px;
+    }
+    .about-col-1, .about-col-2{
+        flex-basis: 100%;
+    }
+    .about-col-1{
+        margin-bottom: 30px;
+    }
+    .about-col-2{
+        font-size: 14px;
+    }
+    .tab-links{
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    .kontak-left, .kontak-right{
+        flex-basis: 100%;
+    }
+    .copyright{
+        font-size: 14px;
+    }
+}
